@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -41,6 +41,7 @@
 		0195070C030C03D8A0540D5F /* Pods-loginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginTests.debug.xcconfig"; path = "Target Support Files/Pods-loginTests/Pods-loginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		147696AE7197EB3D7108E4C2 /* Pods-login-loginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login-loginUITests.release.xcconfig"; path = "Target Support Files/Pods-login-loginUITests/Pods-login-loginUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1AACE3AF2C46F9A117D2186F /* Pods_login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F403DC28BE302E00A529CB /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		5639875F6900849191AA857A /* Pods-login-loginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login-loginUITests.debug.xcconfig"; path = "Target Support Files/Pods-login-loginUITests/Pods-login-loginUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8769E062A406B88D5ACC97D1 /* Pods-login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login.debug.xcconfig"; path = "Target Support Files/Pods-login/Pods-login.debug.xcconfig"; sourceTree = "<group>"; };
 		885230E4263272E100DBCF3F /* login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = login.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,13 +104,13 @@
 				0195070C030C03D8A0540D5F /* Pods-loginTests.debug.xcconfig */,
 				B6F8DE38A622D7E50A52622E /* Pods-loginTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		885230DB263272E100DBCF3F = {
 			isa = PBXGroup;
 			children = (
+				28F403DC28BE302E00A529CB /* codemagic.yaml */,
 				88934F432634232200B116CA /* ui.png */,
 				88934F422634229600B116CA /* README.md */,
 				885230E6263272E100DBCF3F /* login */,
