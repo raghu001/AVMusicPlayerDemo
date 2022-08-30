@@ -1,8 +1,6 @@
-//
-//  codemagic.yaml
-//  login
-//
-//  Created by MAC on 30/08/22.
-//
+workflows:
+  my-workflow:
+    scripts:
+      - name: say hello
+        script: echo "Hello Codemagician!"
 
-import Foundation
